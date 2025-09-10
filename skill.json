@@ -1,6 +1,6 @@
 {
     "title": "Speak",
-    "url": "https://github.com/NeonGeckoCom/skill-speak",
+    "url": "https://github.com/NeonDaniel/skill-speak",
     "summary": "Have Neon repeat whatever you want",
     "short_description": "Have Neon repeat whatever you want",
     "description": "Turn Neon into a parrot.  Speak a phrase and listen to it repeated in Mycroft's selected voice.",
@@ -46,6 +46,6 @@
         "NeonDaniel"
     ],
     "skillname": "skill-speak",
-    "authorname": "NeonGeckoCom",
+    "authorname": "NeonDaniel",
     "foldername": null
 }
