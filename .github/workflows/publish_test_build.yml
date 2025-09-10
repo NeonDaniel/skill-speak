@@ -16,5 +16,3 @@ jobs:
       version_file: "version.py"
       publish_prerelease: true
       publish_pypi: False
-      update_skill_json: True
-# Trivial change to run automation
