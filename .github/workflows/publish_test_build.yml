@@ -10,8 +10,10 @@ on:
 
 jobs:
   build_and_publish_pypi:
-    uses: neongeckocom/.github/.github/workflows/publish_alpha_release.yml@master
+    uses: neongeckocom/.github/.github/workflows/publish_alpha_release.yml@FEAT_UpdateSkillJsonAction
     secrets: inherit
     with:
       version_file: "version.py"
       publish_prerelease: true
+      publish_pypi: False
+      update_skill_json: True
