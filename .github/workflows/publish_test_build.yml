@@ -18,4 +18,4 @@ jobs:
       version_file: "version.py"
       publish_prerelease: true
       publish_pypi: True
-      pypi_url: https://test.pypi.org/legacy
+      pypi_url: https://test.pypi.org/legacy/
