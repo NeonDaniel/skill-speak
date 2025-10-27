@@ -12,7 +12,8 @@ on:
 jobs:
   build_and_publish_pypi:
     uses: neongeckocom/.github/.github/workflows/publish_alpha_release.yml@FEAT_UpdatePyPIAutomation
-    secrets: inherit
+    secrets:
+      PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
     with:
       version_file: "version.py"
       publish_prerelease: true
